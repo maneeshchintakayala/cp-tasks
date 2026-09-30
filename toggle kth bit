@@ -1,0 +1,5 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+def toggle_kth_bit(n, k):
+    return n ^ (1<< k)
+n, k = map(int, input().split())
+print(toggle_kth_bit(n, k))
